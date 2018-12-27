@@ -9,6 +9,10 @@
 	font-family: "Microsoft YaHei UI Light", "微软雅黑";
 }
 
+body {
+	background: rgb(222, 222, 222);
+}
+
 #a {
 	background: rgba(39, 39, 39, 0.7);
 	width: 100%;
@@ -45,6 +49,11 @@
 	font-size: 22px;
 	text-align: center;
 	font-weight: 900
+}
+
+#cs {
+	color: #00b398 !important;
+	border-bottom: 3px solid #00b398 !important
 }
 
 #c1 {
