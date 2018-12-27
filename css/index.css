@@ -91,8 +91,8 @@ body {
 	position: fixed;
 	margin: 0 auto;
 	left: 50%;
-	width: 380px;
-	margin-left: -190px;
+	width: 550px;
+	margin-left: -275px;
 	bottom: 0px;
 }
 
@@ -116,10 +116,15 @@ body {
 	position: absolute;
 	right: 0px;
 }
-
-#foot2 ul li a {
-	color: #b4aca9
-}
+#foot1{ width:600px;height:100%; position:absolute;left:0px; }
+#foot1 li{float:left;}
+#foot1 img{width:40px; height:40px;margin:0px 5px;}
+#foot1 li:hover{ background:#000}
+#foot1 li:hover #FO{ display:block}
+#foot1S{width:200px;height:100%;float:left; position:relative;left:0px;}
+#foot1S img{width:100px; height:100px;margin:50px 50px; border-radius:50% 50%;}
+#foot1SP{width:300px;height:100%;float:left;position: relative;right:0px; padding:100px 0px;}
+#foot1SP li{list-style: disc !important; float:none}
 
 #foot2 li {
 	float: left;
