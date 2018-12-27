@@ -51,10 +51,7 @@ body {
 	font-weight: 900
 }
 
-#cs {
-	color: #00b398 !important;
-	border-bottom: 3px solid #00b398 !important
-}
+#cs{ color:#00b398 !important; border-bottom:3px solid #00b398 !important}
 
 #c1 {
 	position: relative;
@@ -93,6 +90,7 @@ body {
 	left: 50%;
 	width: 550px;
 	margin-left: -275px;
+	margin-bottom: 8px;
 	bottom: 0px;
 }
 
@@ -118,7 +116,7 @@ body {
 }
 #foot1{ width:600px;height:100%; position:absolute;left:0px; }
 #foot1 li{float:left;}
-#foot1 img{width:40px; height:40px;margin:0px 5px;}
+#foot1 img{width:30px; height:30px;margin:0px 5px;}
 #foot1 li:hover{ background:#000}
 #foot1 li:hover #FO{ display:block}
 #foot1S{width:200px;height:100%;float:left; position:relative;left:0px;}
@@ -148,23 +146,6 @@ body {
 	bottom: 35px;
 	left: 20px;
 	display: none;
-}
-
-
-#foot1S img {
-	width: 100px;
-	height: 100px;
-	margin: 50px 50px;
-	border-radius: 50% 50%;
-}
-
-#foot1SP {
-	width: 300px;
-	height: 100%;
-	float: left;
-	position: relative;
-	right: 0px;
-	padding: 100px 0px;
 }
 
 .logo_font{

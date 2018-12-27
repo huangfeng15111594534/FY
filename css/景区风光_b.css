@@ -5,24 +5,84 @@ text-decoration: none;
 	list-style: none;
 	font-family: "Microsoft YaHei UI Light", "微软雅黑";}
 	body{ background:rgb(242,242,242);}
-#a{ background:rgba(39,39,39,0.7); width:100%; height:60px; position: fixed;top:0px; z-index:10}
-#a div{float:left}
-#b{width:300px;height:100%;color:#FFF; position:absolute;left:0px;}
-#b div{ float:left;}
-#c{ width:30px; height:30px; border:5px solid #00b398; position:relative;left:40px; top:10px; font-size:22px; text-align:center; font-weight:900}
-#c1{position:relative;left:45px; top:25px;}
-#b1{width:600px; height:100%; position: absolute;right:0px}
-#b1 a:hover{ color:#bffff5; border-bottom:3px solid #bffff5}
-#b1 li{ float:left ; color:#FFF; position: relative;right:100px;top:25px;margin:0px 15px;}
-#b1 a{color: #FFF}
-#cs{ color:#00b398 !important;  border-bottom:3px solid #00b398 !important}
+
+#a {
+	background: rgba(39, 39, 39, 0.7);
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0px;
+	z-index: 10
+}
+
+#a div {
+	float: left
+}
+
+#b {
+	width: 300px;
+	height: 100%;
+	color: #FFF;
+	position: absolute;
+	left: 0px;
+}
+
+#b div {
+	float: left;
+}
+
+#c {
+	width: 38px;
+	height: 38px;
+	border: 3px solid #54DD92;
+	border-radius: 50%;
+	position: relative;
+	left: 40px;
+	top: 10px;
+	font-size: 22px;
+	text-align: center;
+	font-weight: 900
+}
+
+#cs{ color:#00b398 !important; border-bottom:3px solid #00b398 !important}
+
+#c1 {
+	position: relative;
+	left: 45px;
+	top: 25px;
+}
+
+#b1 {
+	width: 600px;
+	height: 100%;
+	position: absolute;
+	right: 0px
+}
+
+#b1 a:hover {
+	color: #bffff5;
+	border-bottom: 3px solid #54DD92
+}
+
+#b1 li {
+	float: left;
+	color: #FFF;
+	position: relative;
+	right: 100px;
+	top: 25px;
+	margin: 0px 15px;
+}
+
+#b1 a {
+	color: #FFF
+}
 
 
 #foot{ background:#343434; width:100%; height:35px; position: fixed; bottom:0px; color:#FFF}
 #foot div{ float:left}
 #foot1{ width:600px;height:100%; position:absolute;left:0px; }
 #foot1 li{float:left;}
-#foot1 img{width:40px; height:40px;margin:0px 5px;}
+#foot1 img{width:30px; height:30px;margin:0px 5px;}
 #foot1 li:hover{ background:#000}
 #foot2{ height:100%; width:600px; position:absolute;right:0px;}
 #foot2 ul li a{color:#b4aca9}
@@ -37,7 +97,14 @@ text-decoration: none;
 #foot1SP li{list-style: disc !important; float:none}
 
 .PS{ width:1920px; height:1080px; background-image:url(../images/back1.png);position:absolute;left:50%;margin:0px -960px;}
-
+.copyrighrt {
+	position: fixed;
+	margin: 0 auto;
+	left: 50%;
+	width: 550px;
+	margin-left: -275px;
+	bottom: 0px;
+}
 
 
 

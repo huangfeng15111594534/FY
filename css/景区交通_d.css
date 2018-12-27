@@ -4,24 +4,84 @@
 text-decoration: none ;
 	list-style: none;
 	font-family: "Microsoft YaHei UI Light" !important}
-#a{ background:rgba(39,39,39,0.7); width:100% !important; height:60px !important; position: fixed !important;top:0px !important; z-index:10;}
-#a div{float:left !important}
-#b{width:300px !important;height:100% !important;color:#FFF; position:absolute !important;left:0px !important;}
-#b div{ float:left !important;}
-#c{ width:40px !important; height:40px !important; border:5px solid #00b398 !important; position:relative !important;left:40px !important; top:10px !important; font-size:22px !important; text-align:center !important; font-weight:900 !important; }
-#c1{position:relative !important;left:45px !important; top:25px !important;}
-#b1{width:600px !important; height:100% !important; position: absolute !important;right:-20px !important}
-#b1 a:hover{ color:#bffff5 ; border-bottom:3px solid #bffff5 !important}
-#b1 li{ float:left !important; color:#FFF ; position: relative !important;right:100px !important;top:24px !important;margin:0px 15px !important;}
-#b1 a{color: #FFF}
-#cs{ color:#00b398  !important;  border-bottom:3px solid #00b398 !important}
+
+#a {
+	background: rgba(39, 39, 39, 0.7);
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0px;
+	z-index: 10
+}
+
+#a div {
+	float: left
+}
+
+#b {
+	width: 300px;
+	height: 100%;
+	color: #FFF;
+	position: absolute;
+	left: 0px;
+}
+
+#b div {
+	float: left;
+}
+
+#c {
+	width: 38px;
+	height: 38px;
+	border: 3px solid #54DD92;
+	border-radius: 50%;
+	position: relative;
+	left: 40px;
+	top: 10px;
+	font-size: 22px;
+	text-align: center;
+	font-weight: 900
+}
+
+#cs{ color:#00b398 !important; border-bottom:3px solid #00b398 !important}
+
+#c1 {
+	position: relative;
+	left: 45px;
+	top: 25px;
+}
+
+#b1 {
+	width: 600px;
+	height: 100%;
+	position: absolute;
+	right: 0px
+}
+
+#b1 a:hover {
+	color: #bffff5;
+	border-bottom: 3px solid #54DD92
+}
+
+#b1 li {
+	float: left;
+	color: #FFF;
+	position: relative;
+	right: 100px;
+	top: 25px;
+	margin: 0px 15px;
+}
+
+#b1 a {
+	color: #FFF
+}
 
 
 #foot{ background:#343434; width:100% !important; height:35px; position: fixed !important; bottom:0px; color:#FFF; z-index:10}
 #foot div{ float:left}
-#foot1{ width:600px;height:100%; position:absolute;left:40px; }
+#foot1{ width:600px;height:100%; position:absolute;left:0px; }
 #foot1 li{float:left;}
-#foot1 img{width:40px; height:40px;margin:0px 5px;}
+#foot1 img{width:30px; height:30px;margin:0px 5px;}
 #foot1 li:hover{ background:#000}
 #foot2{ height:100%; width:600px; position:absolute;right:0px;}
 #foot2 ul li a{color:#b4aca9}
@@ -34,7 +94,14 @@ text-decoration: none ;
 #foot1S img{width:100px; height:100px;margin:50px 50px; border-radius:50% 50%;}
 #foot1SP{width:300px;height:100%;float:left;position: relative;right:0px; padding:100px 0px !important;}
 #foot1SP li{list-style: disc !important; float:none !important}
-
+.copyrighrt {
+	position: fixed;
+	margin: 0 auto;
+	left: 50%;
+	width: 550px;
+	margin-left: -275px;
+	bottom: 0px;
+}
 
 
 
