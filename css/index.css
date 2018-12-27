@@ -119,7 +119,7 @@ body {
 #foot1 img{width:30px; height:30px;margin:0px 5px;}
 #foot1 li:hover{ background:#000}
 #foot1 li:hover #FO{ display:block}
-#foot1S{width:200px;height:100%;float:left; position:relative;left:0px;}
+#foot1S{width:200px;height:100%;float:left; position:relative;left:15px;}
 #foot1S img{width:100px; height:100px;margin:50px 50px; border-radius:50% 50%;}
 #foot1SP{width:300px;height:100%;float:left;position: relative;right:0px; padding:100px 0px;}
 #foot1SP li{list-style: disc !important; float:none}
