@@ -67,7 +67,7 @@ body {
 }
 
 #b1 {
-	width: 600px;
+	width: 740px;
 	height: 100%;
 	position: absolute;
 	right: 0px
@@ -78,15 +78,43 @@ body {
 	border-bottom: 3px solid #54DD92
 }
 
+
+#b1 li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 100%;
+    border-bottom: 3px solid #54DD92;
+    transition: 0.3s all linear;
+}
 #b1 li {
 	float: left;
-	color: #FFF;
+	color: #54DD92;
 	position: relative;
 	right: 100px;
 	top: 25px;
 	margin: 0px 15px;
+	line-height: 1;
+	transition: 0.2s all linear;
+    cursor: pointer;
 }
-
+#b1 li:hover::before {
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition-delay: 0.1s;
+    border-bottom-color: #000;
+    z-index: -1;
+}
+#b1 li:hover ~ #b1 li::before:not(#time) {
+    left: 0;
+}
+#b1 li:active {
+    background: #FFF;
+    color: #fff;
+}
 #b1 a {
 	color: #FFF
 }
