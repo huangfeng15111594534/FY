@@ -1,2 +1,2 @@
 // JavaScript Document
- alert('HELLO！TEST\n\n------(＞▽＜)------\n');
+// alert('HELLO！TEST\n\n------(＞▽＜)------\n');

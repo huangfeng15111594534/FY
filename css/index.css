@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+	margin: 0px 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Microsoft YaHei UI Light", "微软雅黑";
+}
+
+
+
+#a {
+	background: #000;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0px;
+	z-index: 10
+}
+
+#a div {
+	float: left
+}
+
+#b {
+	width: 300px;
+	height: 100%;
+	color: #FFF;
+	position: absolute;
+	left: 0px;
+}
+
+#b div {
+	float: left;
+}
+
+#c {
+	width: 38px;
+	height: 38px;
+	border: 1px solid ;
+	border-radius: 50%;
+	position: relative;
+	left: 40px;
+	top: 10px;
+	font-size: 22px;
+	text-align: center;
+	font-weight: 900
+}
+
+#c1 {
+	position: relative;
+	left: 45px;
+	top: 25px;
+}
+
+#b1 {
+	width: 600px;
+	height: 100%;
+	position: absolute;
+	right: 0px
+}
+
+#b1 a:hover {
+	color: #fff;
+	border-bottom: 3px solid 
+}
+
+#b1 li {
+	float: left;
+	color: #FFF;
+	position: relative;
+	right: 100px;
+	top: 25px;
+	margin: 0px 15px;
+}
+
+#b1 a {
+	color: #FFF
+}
