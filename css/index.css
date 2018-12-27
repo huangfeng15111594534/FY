@@ -95,3 +95,102 @@ body {
 	margin-left: -190px;
 	bottom: 0px;
 }
+
+
+#foot {
+	background: #343434;
+	width: 100%;
+	height: 35px;
+	position: fixed;
+	bottom: 0px;
+	color: #FFF
+}
+
+#foot div {
+	float: left
+}
+
+#foot2 {
+	height: 100%;
+	width: 600px;
+	position: absolute;
+	right: 0px;
+}
+
+#foot2 ul li a {
+	color: #b4aca9
+}
+
+#foot2 li {
+	float: left;
+	color: #b4aca9;
+	position: relative;
+	left: 150px;
+	bottom: 0px;
+	margin: 10px 6px;
+	font-size: 14px
+}
+
+#foot2 a:hover {
+	color: #bffff5
+}
+
+#FO {
+	width: 500px;
+	height: 300px;
+	background: rgba(36, 36, 36, 0.7);
+	position: fixed;
+	bottom: 35px;
+	left: 20px;
+	display: none;
+}
+
+
+#foot1S img {
+	width: 100px;
+	height: 100px;
+	margin: 50px 50px;
+	border-radius: 50% 50%;
+}
+
+#foot1SP {
+	width: 300px;
+	height: 100%;
+	float: left;
+	position: relative;
+	right: 0px;
+	padding: 100px 0px;
+}
+
+.logo_font{
+
+}
+.NAV {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	left: 50%;
+	margin: 0px -960px;
+}
+
+.NAV1 {
+	width: 100%;
+	height: 100%;
+	position: absolute
+}
+
+.NAV2 {
+	background: rgba(39, 39, 39, 0.4);
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	overflow: hidden
+}
+
+.NAV2 img {
+	width: 1920px;
+	height: 1080px;
+	position: relative;
+	top: 100px;
+	overflow: hidden
+}
