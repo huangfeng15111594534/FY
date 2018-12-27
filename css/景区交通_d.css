@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin: 0px 0px ;
+text-decoration: none ;
+	list-style: none;
+	font-family: "Microsoft YaHei UI Light" !important}
+#a{ background:rgba(39,39,39,0.7); width:100% !important; height:60px !important; position: fixed !important;top:0px !important; z-index:10;}
+#a div{float:left !important}
+#b{width:300px !important;height:100% !important;color:#FFF; position:absolute !important;left:0px !important;}
+#b div{ float:left !important;}
+#c{ width:40px !important; height:40px !important; border:5px solid #00b398 !important; position:relative !important;left:40px !important; top:10px !important; font-size:22px !important; text-align:center !important; font-weight:900 !important; }
+#c1{position:relative !important;left:45px !important; top:25px !important;}
+#b1{width:600px !important; height:100% !important; position: absolute !important;right:-20px !important}
+#b1 a:hover{ color:#bffff5 ; border-bottom:3px solid #bffff5 !important}
+#b1 li{ float:left !important; color:#FFF ; position: relative !important;right:100px !important;top:24px !important;margin:0px 15px !important;}
+#b1 a{color: #FFF}
+#cs{ color:#00b398  !important;  border-bottom:3px solid #00b398 !important}
+
+
+#foot{ background:#343434; width:100% !important; height:35px; position: fixed !important; bottom:0px; color:#FFF; z-index:10}
+#foot div{ float:left}
+#foot1{ width:600px;height:100%; position:absolute;left:40px; }
+#foot1 li{float:left;}
+#foot1 img{width:40px; height:40px;margin:0px 5px;}
+#foot1 li:hover{ background:#000}
+#foot2{ height:100%; width:600px; position:absolute;right:0px;}
+#foot2 ul li a{color:#b4aca9}
+
+#foot2 li{float:left; color:#b4aca9; position: relative;left:175px;bottom:0px; margin:10px 6px; font-size:14px}
+#foot2 a:hover{ color:#bffff5}
+#FO{ width:500px; height:300px; background:rgba(36,36,36,0.7); position:fixed !important;bottom:35px;left:20px !important; display:none;}
+#foot1 li:hover #FO{ display:block}
+#foot1S{width:200px;height:100%;float:left; position:relative;left:0px !important;}
+#foot1S img{width:100px; height:100px;margin:50px 50px; border-radius:50% 50%;}
+#foot1SP{width:300px;height:100%;float:left;position: relative;right:0px; padding:100px 0px !important;}
+#foot1SP li{list-style: disc !important; float:none !important}
+
+
+
+
+
+
+

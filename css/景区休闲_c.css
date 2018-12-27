@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin: 0px 0px;
+text-decoration: none;
+	list-style: none;
+	font-family: "Microsoft YaHei UI Light", "微软雅黑";}
+	a:link{}
+    a:visited{}
+body{ background:rgb(242,242,242);}
+#a{ background:rgba(39,39,39,0.7); width:100%; height:60px; position: fixed;top:0px; z-index:10}
+#a div{float:left}
+#b{width:300px;height:100%;color:#FFF; position:absolute;left:0px;}
+#b div{ float:left;}
+#c{ width:30px; height:30px; border:5px solid #00b398; position:relative;left:40px; top:10px; font-size:22px; text-align:center; font-weight:900}
+#c1{position:relative;left:45px; top:25px;}
+#b1{width:600px; height:100%; position: absolute;right:0px}
+#b1 a:hover{ color:#bffff5; border-bottom:3px solid #bffff5}
+#b1 li{ float:left ; color:#FFF; position: relative;right:100px;top:25px;margin:0px 15px;}
+#b1 a{color: #FFF}
+#cs{ color:#00b398 !important;  border-bottom:3px solid #00b398 !important}
+
+
+#foot{ background:#343434; width:100%; height:35px; position: fixed; bottom:0px; color:#FFF}
+#foot div{ float:left}
+#foot1{ width:600px;height:100%; position:absolute;left:0px; }
+#foot1 li{float:left;}
+#foot1 img{width:40px; height:40px;margin:0px 5px;}
+#foot1 li:hover{ background:#000}
+#foot2{ height:100%; width:600px; position:absolute;right:0px;}
+#foot2 ul li a{color:#b4aca9}
+
+#foot2 li{float:left; color:#b4aca9; position: relative;left:150px;bottom:0px; margin:10px 6px; font-size:14px}
+#foot2 a:hover{ color:#bffff5}
+#FO{ width:500px; height:300px; background:rgba(36,36,36,0.7); position:fixed;bottom:35px;left:20px; display:none;}
+#foot1 li:hover #FO{ display:block}
+#foot1S{width:200px;height:100%;float:left; position:relative;left:0px;}
+#foot1S img{width:100px; height:100px;margin:50px 50px; border-radius:50% 50%;}
+#foot1SP{width:300px;height:100%;float:left;position: relative;right:0px; padding:100px 0px;}
+#foot1SP li{list-style: disc !important; float:none}
+
+
+
+.zusak1{width:1920px;height:1920px; position: absolute;left:50%;margin-left:-960px;}
+.ZUSAK{width:1920px;height:100px; position: relative;top:50px;}
+.ZUSAK div:first-child{width:150px; height:50px;position:relative;left:50%;top:40px;margin:0px -75px; background:#00b398;color:#FFF; box-shadow:2px 2px 10px #999999; font-size:24px; text-align:center;}
+.p1{ position:relative;top:7px; letter-spacing:7px; text-shadow:2px 2px 10px #000000; font-weight:300}
+.ZUSAK div:last-child{width:300px; height:100px;position:relative;left:50%;top:50px;margin:0px -150px;color:#000;text-align:center; font-size:35px;}
+.p2{ font-weight:800}
+.p3{ font-weight:100}
+
+.PART2{width:1920; height:200px; position:relative; top:100px;}
+.PART2S1{width:980px; height:110px; position:relative;left:50%;top:0px; margin:0px -490px;}
+.PART2S2{ width:980px;height:90px; position:relative;left:50%;top:0px; margin:0px -490px;}
+.PART2S1 input{ width:70px; height:70px; border:3px solid #000; border-radius:50% 50%; overflow:hidden; float:left; margin:0px 35px; position:relative;top:20px}
+.PART2S2 p{ font-size:50px; font-weight:100; text-align:center; position:relative;top:10px; letter-spacing:10px}
+
+
+.PART3{width:1920px; height:1390px; position:relative;top:200px; overflow:hidden}
+.PART3S{width:1920px; height:270px;}
+.PART3SS{width:1500px; height:270px; position:relative;left:50%; margin:0px -750px;}
+.T1{width:750px;float:left; height:270px; position:relative;left:0px;}
+.T2{width:750px;float:left; height:270px; position:relative;right:0px;}
+.T3{width:100px; height:51px; background:#00b398; color:#fff;position:relative;left:500px;top:50%;margin:-25px 0px; box-shadow:2px 2px 5px #000 }
+.T3 p{position:relative;top:10px;font-size:22px; letter-spacing:5px; font-weight:100}
+.T4{width:600px; height:220px; position:relative;top:50%; margin:-110px 0px; background: #FFF; border-bottom:10px solid #00b398; border-radius:20px; padding:0px 10px;}
+.T4:hover{ box-shadow:2px 2px 10px #111}
+.T4 p{font-size:24px; font-weight:200; letter-spacing:5px;text-indent:2em; position:relative; top:20px}
+
+
+
+
+
