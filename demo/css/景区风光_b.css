@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.PS{ width:1920px; height:1080px; background-image:url(../images/back1.png);position:absolute;left:50%;margin:0px -960px;}
+.copyrighrt {
+	position: fixed;
+	margin: 0 auto;
+	left: 50%;
+	width: 550px;
+	margin-left: -275px;
+	bottom: 0px;
+}
+
+
+
+
+
+
