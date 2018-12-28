@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>next</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+    <style>
+      .onle{
+        background-color: rgba(71, 71, 71, 0.685);
+      }
+        .navbar-brand{
+                margin-top: -15px;
+            }
+
+          #demo{
+          width:1500px;
+          height:400px;
+          margin:20px auto;
+          overflow:hidden;
+        }
+
+        #indemo{
+          width:950%;
+          float:left;
+          
+        }
+        #demo1{
+          float:left;
+          
+        }
+        #demo2{
+          float:left;
+          margin-left:5PX;
+
+        }
+        .fan{
+         margin-left:300px;
+          width: 800px;
+          height: 2300px;
+          background-color:rgb(154, 221, 233);
+        }   
+        .nav{
+          height: 50px;
+        }
+        .father{
+        width:300px;
+        height:200px;
+        margin:50px auto;
+        position:relative;
+        transition:2s;
+        transform-style:preserve-3d;
+        }
+        .red{
+        width:100%;
+        height:100%;
+        background:url(image/1.jpg) no-repeat;
+        background-size:contain;
+        position:absolute;
+        opacity:0.5;
+        transform:translateZ(-100PX);
+        }
+        .green{
+        width:100%;
+        height:100%;
+        position:absolute;
+        background:url(image/2.jpg) no-repeat;
+        background-size:contain;
+
+        transform:translateZ(-200PX);
+        }
+        .father:hover{
+        transform:rotateY(180deg);
+}
+
+footer{ 
+                background:#4C4C4C;
+                 width:100%; 
+                }
+            footer section{ 
+                float:left; 
+                margin-right:40px;
+            }
+            footer h2{ 
+                color:#FFF; 
+                font-size:14px; 
+                line-height:40px;
+            }
+            .footer-mid{ 
+                width:980px;
+                margin:auto;
+                 padding:20px 0; 
+                 overflow:hidden;
+                }
+            .links{
+                 width:170px;
+                }
+            .links ul li
+            {border-bottom: 1px solid #444;
+            }
+            .links ul li a{
+                 color:#ccc;
+                 padding: 5px 0 5px 0;
+                  line-height:30px;
+                   width:100%;
+                }
+            .links ul li a:hover{
+                color:#fff;
+            }
+            .contact{ 
+                width:270px;
+            }
+            .footer-input,.footer-textarea{
+                float: left;
+                width: 264px;
+                padding: 0px 0 0 4px;
+                margin: 0px 0 10px 0px;
+                background: #444;
+                border: 1px solid #3b3b3b;
+                color: #ccc;
+            }
+            .footer-input {
+                height: 30px;
+            }
+            .footer-textarea {
+                height: 30px;
+            }
+            #submit {
+                float: left;
+                height: 30px;
+                padding: 2px 10px 3px 10px;
+                margin: 0px 0 10px 0px;
+                background: #444;
+                border: 1px solid #3b3b3b;
+                color: #ccc;
+                cursor: pointer;
+            }
+            #footer-bottom {
+                
+                width: 100%;
+                height: 40px;
+                background: #333;
+                border-top: 1px solid #727272;
+            }
+            #footer-bottom ul {
+                width: 980px;
+                height: 40px;
+                margin-left: 40%;
+                 line-height:40px;
+                }
+            #footer-bottom ul p,#footer-bottom ul p a{ 
+                color:#fff;
+            }
+            #footer-bottom ul p a:hover{
+                 text-decoration:underline;
+                }
+    </style>
+    <body>
+      <div class="onle">
+         <!-- 导航条 -->
+         <nav class="navbar navbar-default " >
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img alt="Brand" src="image/logojpg.jpg"></a>
+                  </div>
+              
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+                      <li><a href="next.html">优质团队</a></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">精彩趣事 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">个人介绍</a></li> 
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">One more separated link</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="看你想看！">
+                      </div>
+                      <button type="submit" class="btn btn-default">搜索</button>
+                    </form>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->  
+              </nav>
+             
+              <!--自动轮转图-->
+              <div id="demo">
+                <div id="indemo">
+                <div id="demo1">
+                <img src="image/1.jpg" width="600" height="400" /> <img src="image/2.jpg" width="600" height="400" /> <img src="image/4.jpg" width="600" height="400" /> <img src="image/3.jpg" width="600" height="400" />
+                </div>
+                <div id="demo2">
+                </div>
+                </div>
+                </div>
+
+                 <!--简介-->
+              <div class="fan">
+                <div class="na01" style=" text-align: center; margin: 10px;">
+                  <div class="nav"></div>
+                        <p>武功山</p>
+
+                      <p>一线天过入仙境</p>
+                      <p>雾绕云缠崖石倩</p>
+                      <p>观音驾鹤南海去</p>
+                      <p>留的芳名在人间</p>
+                </div>
+                <!--翻转-->
+                  <div class="father">
+                   <div class="green">
+                   </div>
+                  <div class="red">
+                   </div>
+                   </div>
+                   <div class="na02" style=" text-align: center; margin: 10px;">
+                      <p>许多小伙伴都是坐火车来萍乡</p>
+                      <p>不管是高铁站还是火车站</p>
+                          <p>都能很方便的来武功山</p>
+                              <p>土豪方式：直接包车进山，具体价格看车型</p>
+                                  <p>勤俭持家：车站都有直达景区的车，23元搞定</p>
+                                      <p>淡季时高铁站景区直通车比较少</p>
+                                          <p>建议小伙伴们前往火车站坐车</p>
+
+                                              <p>现在景区施行全封闭管理</p>
+                                                  <p>私家车与公交车都只能到达游客服务中心</p>
+                                                      <p>小伙伴们可以选择在公众号里购买门票</p>
+                                                          <p>也可以选择在景区售票中心购票</p>
+                                                              <p>当日购买地票价是70元</p>
+                                                                  <p>小武悄悄地说个小福利</p>
+                                                                      <p>在公众号里提前一天买票只需60元</p>
+                                                  <img src="image/na02.png" width="200px" height="200px"/>
+                                                  <p></p>
+                                                  <p></p>
+                                                  <p>(游客服务中心)</p>
+              </div>
+              <div class="na03" style=" text-align: center; margin: 10px;">
+                  <img src="image/na03.jpg" width="200px" height="200px"/>
+              </div>
+              <div class="na04" style=" text-align: center; margin: 10px;">
+                  <p>小伙伴可以选择全程徒步上山</p>
+                  <p>也可以选择坐索道上山</p>
+                      <p>小武真的强烈建议</p>
+                          <p>一定要坐第一级索道上山</p>
+                              <p>这样既不累，又能欣赏美景</p>
+                                  <p>此时万能小武上线</p>
+                                      <p>小伙伴们可以直接在订阅号里购买索道票</p>
+                                          <p>是不是很方便很简单</p>
+              </div>
+              <div class="na05" style=" text-align: center; margin: 10px;">
+                  <img src="image/map.jpg" width="600px" height="400px"/>
+              </div>
+              <div class="na04" style=" text-align: center; margin: 10px;">
+                  <p>小伙伴可以选择全程徒步上山</p>
+                  <p>也可以选择坐索道上山</p>
+                      <p>小武真的强烈建议</p>
+                          <p>一定要坐第一级索道上山</p>
+                              <p>这样既不累，又能欣赏美景</p>
+                                  <p>此时万能小武上线</p>
+                                      <p>小伙伴们可以直接在订阅号里购买索道票</p>
+                                          <p>是不是很方便很简单</p>
+              </div>
+                 
+         </div>
+            </div>             
+              </div>
+            </div>
+
+              <!--页尾-->
+              <footer>
+                  <div class="footer-mid">
+                    
+                       <section class="links">
+                       <h2>合作伙伴</h2>
+                       <ul>
+                        <li><a href="#">武功山官方网站</a></li>
+                        <li><a href="#">梁鸣</a></li>
+                        <li><a href="#">黄清</a></li>
+                        <li><a href="#">峰鸣清 技术服务中心</a></li>
+                        
+                       </ul>
+                     </section>
+                      <section class="links">
+                       <h2>友情链接</h2>
+                       <ul>
+                        <li><a href="#">峰鸣清 技术服务中心</a></li>
+                        <li><a href="#">梁鸣</a></li>
+                        <li><a href="#">黄清</a></li>
+                        <li><a href="#">武功山官方网站</a></li>
+                       </ul>
+                     </section>
+                     <section class="contact">
+                       <h2>留言</h2>
+                       <form id="footer-form" method="post" action=" ">
+                         <input type="text"  value="Name" name="field1footer" class="footer-input" >
+                          <input type="text" value="Email" class="footer-input">
+                          <textarea class="footer-textarea" name="field3footer" id="field3footer"></textarea>
+                          <input type="submit" id="submit" value="Send" name="submit">                
+                           </form>
+                     </section>
+                  </div>
+                 <div id="footer-bottom"><ul><p>@huangfeng16376068 computer </p></ul></div>
+                 </footer>
+              <script src="js/jquery-1.9.1.js"></script>
+              <script src="js/bootstrap.js"></script>
+              <script>
+                  $('.carousel').carousel({
+                      interval: 5000
+                  })
+              </script>
+               <!--自动轮转图script-->
+              <script>
+                demo2.innerHTML=demo1.innerHTML;
+                demo.offsetleft=demo2.offsetleft;
+                function mar(){
+                  //if(demo.scrollLeft>=demo1.offsetWidth)
+                  if(demo.scrollLeft<=0)
+                  demo.scrollLeft+=demo1.offsetWidth
+                  //demo.scrollLeft-=demo1.offsetWidth;
+                  else
+                  demo.scrollLeft--;
+                  //demo.scrollLeft++;
+                
+                  }
+                  var mymar=setInterval(mar,6);
+                  demo.onmouseover=function(){clearInterval(mymar)}
+                  demo.onmouseout=function(){mymar=setInterval(mar,6)}
+                                             
+                </script>
+    </body>
+</html>

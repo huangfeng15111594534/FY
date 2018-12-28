@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>个人博客</title>
         <link rel="stylesheet" href="css/bootstrap.css">
+       
         <style>
             .carousel{
                 margin-top: 58px;
@@ -18,26 +19,124 @@
                 height: 100px;
                 border-radius: 50px;
             }
-            .chapter{
+            .chapter{       
                 margin-top: 20px;
             }
             .jumbotron{
                 color: yellow;
-                background-image:url(image/9.jpg);
+                background-image:url(image/first.jpg);
+                height: 235px;
                 
+            }
+            .jumbotron h1{
+                margin-top: -10px;
+            }
+            .move{
+                margin-left: 40%;
             }
             .navbar-brand{
                 margin-top: -15px;
             }
+            .foot{
+                width: 100%;
+                height: 150px;
+                background-color: black;
+            }
+            footer{ 
+                background:#4C4C4C;
+                 width:100%; 
+                }
+            footer section{ 
+                float:left; 
+                margin-right:40px;
+            }
+            footer h2{ 
+                color:#FFF; 
+                font-size:14px; 
+                line-height:40px;
+            }
+            .footer-mid{ 
+                width:980px;
+                margin:auto;
+                 padding:20px 0; 
+                 overflow:hidden;
+                }
+            .links{
+                 width:170px;
+                }
+            .links ul li
+            {border-bottom: 1px solid #444;
+            }
+            .links ul li a{
+                 color:#ccc;
+                 padding: 5px 0 5px 0;
+                  line-height:30px;
+                   width:100%;
+                }
+            .links ul li a:hover{
+                color:#fff;
+            }
+            .contact{ 
+                width:270px;
+            }
+            .footer-input,.footer-textarea{
+                float: left;
+                width: 264px;
+                padding: 0px 0 0 4px;
+                margin: 0px 0 10px 0px;
+                background: #444;
+                border: 1px solid #3b3b3b;
+                color: #ccc;
+            }
+            .footer-input {
+                height: 30px;
+            }
+            .footer-textarea {
+                height: 30px;
+            }
+            #submit {
+                float: left;
+                height: 30px;
+                padding: 2px 10px 3px 10px;
+                margin: 0px 0 10px 0px;
+                background: #444;
+                border: 1px solid #3b3b3b;
+                color: #ccc;
+                cursor: pointer;
+            }
+            #footer-bottom {
+                
+                width: 100%;
+                height: 40px;
+                background: #333;
+                border-top: 1px solid #727272;
+            }
+            #footer-bottom ul {
+                width: 980px;
+                height: 40px;
+                margin-left: 40%;
+                 line-height:40px;
+                }
+            #footer-bottom ul p,#footer-bottom ul p a{ 
+                color:#fff;
+            }
+            #footer-bottom ul p a:hover{
+                 text-decoration:underline;
+                }
         </style>
         <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
         <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-    </head>
-    <body>
+    </head> 
+    <body> 
         <div class="jumbotron" >
-             <img src="image/logojpg.jpg" alt=" " class="img-circle">
-            <h1>Hornet Weclome!</h1>
-           
+
+            <h1>Hornet Weclome!
+                    <img src="image/logojpg.jpg" alt=" " class="img-circle">
+            </h1>
+            <h2> 
+               <p> Cras sit amet nibh libero, in gravida nulla. </p>
+              
+            </h2>
            
           </div>
         
@@ -58,14 +157,12 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                      <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                      <li><a href="#">Hornet</a></li>
+                      <li class="active"><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+                      <li><a href="next.html">优质团队</a></li>
                       <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">精彩趣事 <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
+                          <li><a href="#">个人介绍</a></li> 
                           <li role="separator" class="divider"></li>
                           <li><a href="#">Separated link</a></li>
                           <li role="separator" class="divider"></li>
@@ -73,25 +170,13 @@
                         </ul>
                       </li>
                     </ul>
-                    <form class="navbar-form navbar-left">
+                    <form class="navbar-form navbar-right">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
+                        <input type="text" class="form-control" placeholder="看你想看！">
                       </div>
-                      <button type="submit" class="btn btn-default">Submit</button>
+                      <button type="submit" class="btn btn-default">搜索</button>
                     </form>
-                    <ul class="nav navbar-nav navbar-right">
-                      <li><a href="#">Link</a></li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="#">Separated link</a></li>
-                        </ul>
-                      </li>
-                    </ul>
+                  
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
               </nav>
@@ -109,24 +194,30 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="image/1.png" alt="">
+                        <img src="image/1.jpg" alt="">
                         <div class="carousel-caption">
-                            <h3>First slide label</h3>
+                                <a href="#">
+                            <h3>在水一方</h3>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </a>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="image/2.png" alt="">
+                        <img src="image/2.jpeg" alt="">
                         <div class="carousel-caption">
-                            <h3>Second slide label</h3>
+                            <a href="#">
+                            <h3>清风杨柳</h3>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </a>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="image/3.png" alt="">
+                        <img src="image/3.jpg" alt="">
                         <div class="carousel-caption">
-                            <h3>Third slide label</h3>
+                                <a href="#">
+                            <h3>半壁江山</h3>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -147,7 +238,7 @@
             <div class="media">
                 <div class="media-left media-middle">
                     <a href="#">
-                        <img class="media-object" src="image/d_ico_0.gif" alt="">
+                        <img class="media-object" src="image/11.jpg" alt="">
                     </a>
                 </div>
                 <div class="media-body">
@@ -159,7 +250,7 @@
             <div class="media">
                 <div class="media-left media-middle">
                     <a href="#">
-                        <img class="media-object" src="image/d_ico_0.gif" alt="">
+                        <img class="media-object" src="image/4.jpg" alt="">
                     </a>
                 </div>
                 <div class="media-body">
@@ -171,7 +262,7 @@
             <div class="media">
                 <div class="media-left media-middle">
                     <a href="#">
-                        <img class="media-object" src="image/d_ico_0.gif" alt="">
+                        <img class="media-object" src="image/6.jpeg" alt="">
                     </a>
                 </div>
                 <div class="media-body">
@@ -183,7 +274,7 @@
             <div class="media">
                 <div class="media-left media-middle">
                     <a href="#">
-                        <img class="media-object" src="image/d_ico_0.gif" alt="">
+                        <img class="media-object" src="image/2.jpg" alt="">
                     </a>
                 </div>
                 <div class="media-body">
@@ -195,56 +286,117 @@
             <div class="media">
                 <div class="media-left media-middle">
                     <a href="#">
-                        <img class="media-object" src="image/d_ico_0.gif" alt="">
+                        <img class="media-object" src="image/3.jpg" alt="">
                     </a>
                 </div>
                 <div class="media-body">
                     <h4 class="media-heading">Middle aligned media</h4>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                 </div>
-                   
+                <!--按键-->
+                <div class="move">
+                <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                          <li>
+                            <a href="#" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                            </a>
+                          </li>
+                          <li><a href="#">1</a></li>
+                          <li><a href="#">2</a></li>
+                          <li><a href="#">3</a></li>
+                          <li><a href="#">4</a></li>
+                          <li><a href="#">5</a></li>
+                          <li>
+                            <a href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
             </div>
              <!-- 图片介绍 -->
              <div class="three chapter" >
                             </div><div class="row">
                                     <div class="col-sm-6 col-md-4">
                                       <div class="thumbnail">
-                                        <img src="image/1.png" alt=" ">
+                                          <a href="#">
+                                        <img src="image/1.jpg" class="img-circle">
+                                    </a>
                                         <div class="caption">
-                                          <h3>Thumbnail label</h3>
-                                          <p>...</p>
-                                          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                          <h3>清风烟柳</h3>
+                                          <p>.有时候不是我不理你，其实我也想你了，只是我不知道该对你说什么。不管过去如何，过去的已经过去，最好的总在未来等着你。当我们懂得珍惜平凡的幸福的时候，就已经成了人生的赢家。Nothing is as sweet as you 再没什么，能甜蜜如你。我以为只要很认真的喜欢就能打动一个人，到后来，却只打动了我自己。</p>
+                                          <p><a href="#" class="btn btn-primary" role="button">阅读</a> <a href="#" class="btn btn-default" role="button">更多</a></p>
                                         </div>
                                       </div>
                                     </div>
                                     <div class="row">
                                             <div class="col-sm-6 col-md-4">
                                               <div class="thumbnail">
-                                                <img src="image/1.png" alt=" ">
+                                                    <a href="#">
+                                                <img src="image/4.jpg" class="img-circle">
+                                                </a>
                                                 <div class="caption">
-                                                  <h3>Thumbnail label</h3>
-                                                  <p>...</p>
-                                                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                                  <h3>半水江山</h3>
+                                                  <p>.有时候不是我不理你，其实我也想你了，只是我不知道该对你说什么。不管过去如何，过去的已经过去，最好的总在未来等着你。当我们懂得珍惜平凡的幸福的时候，就已经成了人生的赢家。Nothing is as sweet as you 再没什么，能甜蜜如你。我以为只要很认真的喜欢就能打动一个人，到后来，却只打动了我自己。</p>
+                                                  <p><a href="#" class="btn btn-primary" role="button">阅读</a> <a href="#" class="btn btn-default" role="button">更多</a></p>
                                                 </div>
                                               </div>
                                             </div>
                                             <div class="row">
                                                     <div class="col-sm-6 col-md-4">
                                                       <div class="thumbnail">
-                                                        <img src="image/1.png" alt=" ">
+                                                            <a href="#">
+                                                        <img src="image/3.jpg" class="img-circle">
+                                                        </a>
                                                         <div class="caption">
-                                                          <h3>Thumbnail label</h3>
-                                                          <p>...</p>
-                                                          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                                          <h3>在水一方</h3>
+                                                          <p>.有时候不是我不理你，其实我也想你了，只是我不知道该对你说什么。不管过去如何，过去的已经过去，最好的总在未来等着你。当我们懂得珍惜平凡的幸福的时候，就已经成了人生的赢家。Nothing is as sweet as you 再没什么，能甜蜜如你。我以为只要很认真的喜欢就能打动一个人，到后来，却只打动了我自己。</p>
+                                                          <p><a href="#" class="btn btn-primary" role="button">阅读</a> <a href="#" class="btn btn-default" role="button">更多</a></p>
                                                         </div>
                                                       </div>
                                                     </div>
+                                                    
                                   </div>
                                 </div>
-
-        </div>
-        
-
+                             </div>
+                            </div>
+                <!--页尾-->
+                <footer>
+                        <div class="footer-mid">
+                          
+                             <section class="links">
+                             <h2>武功山官方网站</h2>
+                             <ul>
+                              <li><a href="#">黄峰</a></li>
+                              <li><a href="#">梁鸣</a></li>
+                              <li><a href="#">黄清</a></li>
+                              <li><a href="#">峰鸣清 技术服务中心</a></li>
+                              
+                             </ul>
+                           </section>
+                            <section class="links">
+                             <h2>友情链接</h2>
+                             <ul>
+                              <li><a href="#">黄峰</a></li>
+                              <li><a href="#">梁鸣</a></li>
+                              <li><a href="#">黄清</a></li>
+                              <li><a href="#">武功山官方网站</a></li>
+                             </ul>
+                           </section>
+                           <section class="contact">
+                             <h2>留言</h2>
+                             <form id="footer-form" method="post" action=" ">
+                               <input type="text"  value="Name" name="field1footer" class="footer-input" >
+                                <input type="text" value="Email" class="footer-input">
+                                <textarea class="footer-textarea" name="field3footer" id="field3footer"></textarea>
+                                <input type="submit" id="submit" value="Send" name="submit">                
+                                 </form>
+                           </section>
+                        </div>
+                       <div id="footer-bottom"><ul><p>@huangfeng16376068 computer </p></ul></div>
+                       </footer>
         <script src="js/jquery-1.9.1.js"></script>
         <script src="js/bootstrap.js"></script>
         <script>
