@@ -10,7 +10,22 @@
 #foot2 li{float:left; color:#b4aca9; position: relative;left:175px;bottom:0px; margin:10px 6px; font-size:14px}
 #foot2 a:hover{ color:#bffff5}
 #FO{ width:500px; height:300px; background:rgba(36,36,36,0.7); position:fixed !important;bottom:35px;left:20px !important; display:none;}
-#foot1 li:hover #FO{ display:block}
+#FO{
+	transition: opacity 0.1s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+}
+#FO:hover{
+		transition: opacity .55s ease-in-out;
+	-moz-transition: opacity .55s ease-in-out;
+	-webkit-transition: opacity .55s ease-in-out;
+
+}
+#foot1 li:hover #FO{ display:block;	
+	-webkit-animation-name: fadeIn; /*动画名称*/
+    -webkit-animation-duration: 0.3s; /*动画持续时间*/
+    -webkit-animation-iteration-count: 1; /*动画次数*/
+    -webkit-animation-delay: 0s; /*延迟时间*/}
 #foot1S{width:200px;height:100%;float:left; position:relative;left:0px !important;}
 #foot1S img{width:100px; height:100px;margin:50px 50px; border-radius:50% 50%;}
 #foot1SP{width:300px;height:100%;float:left;position: relative;right:0px; padding:100px 0px !important;}
@@ -25,4 +40,13 @@
 	margin-left: -275px;
 	margin-bottom: 8px;
 	bottom: 0px;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+    opacity: 0; 
+    }
+    100% {
+        opacity: 1;
+    }
 }

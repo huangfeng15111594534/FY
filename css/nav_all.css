@@ -42,8 +42,8 @@ body {
 }
 
 #c {
-	width: 70px;
-	height: 70px;
+	width: 80px;
+	height: 80px;
 	background: #008000 url(../images/山.png) no-repeat scroll center center;
 	border: 3px solid #54DD92;
 	border-radius: 50%;
@@ -56,19 +56,17 @@ body {
 	font-weight: 900;
 	font-family: "楷体";
 	opacity: 0.7;
-	/*可以改变数值*/
+	
 	transition: opacity 0.1s ease-in-out;
-	/*可以改变时间*/
-	-moz-transition: opacity 0.5s ease-in-out;
-	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.1s ease-in-out;
+	-webkit-transition: opacity 0.1s ease-in-out;
 }
 
 #c:hover {
 	background: url(../images/home.png) rgb(242, 242, 242) no-repeat scroll center center;
 	opacity: 1.5;
-	/*可以改变数值*/
+
 	transition: opacity .55s ease-in-out;
-	/*可以改变时间*/
 	-moz-transition: opacity .55s ease-in-out;
 	-webkit-transition: opacity .55s ease-in-out;
 }
@@ -88,6 +86,8 @@ body {
 
 /*LOGO*/
 
+
+
 #cs {
 	color: #00b398 !important;
 	border-bottom: 3px solid #00b398 !important
@@ -97,10 +97,15 @@ body {
 	position: relative;
 	left: 80px;
 	top: 25px;
+		font-size: +2;
+}
+#font{
+	font-size: +2;
+	size: +2;
 }
 
 #b1 {
-	width: 740px;
+	width: 900px;
 	height: 100%;
 	position: absolute;
 	right: 0px
@@ -127,9 +132,10 @@ body {
 	left: 100%;
 	width: 0;
 	height: 100%;
-	border-bottom: 4px solid #000;
+	border-bottom: 6px solid #000;
 	transition: 0.2s all linear;
 }
+
 
 #b1 li {
 	position: relative;

@@ -20,9 +20,10 @@
 }
 
 .NAV2 {
-	background: rgba(39, 39, 39, 0.4);
+	background: rgba(39, 39, 39, 0.3);
+	
 	width: 1920px;
-	height: 1080px;
+	height: 300px;
 	position: absolute;
 	overflow: hidden
 }

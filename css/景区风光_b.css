@@ -1,6 +1,77 @@
 @charset "utf-8";
 /* CSS Document */
+body {
+	scroll="no" style="overflow-x:hidden;overflow-y:scroll ;"
+}
 
+#frame {
+				position: absolute;
+				width: 1280px;
+				height: 800px;
+				overflow: hidden;
+				border-radius: 5px
+			}
+			
+			#dis {
+				position: absolute;
+				left: -50px;
+				top: -10px;
+				opacity: .5
+			}
+			
+			#dis li {
+				display: inline-block;
+				width: 200px;
+				height: 20px;
+				margin: 0 50px;
+				float: left;
+				text-align: center;
+				color: #fff;
+				border-radius: 10px;
+				background: #000
+			}
+			
+			#photos img {
+				float: left;
+				width: 1280px;
+				height: 800px
+			}
+			
+			#photos {
+				position: absolute;
+				z-index: 9;
+				width: calc(1280px * 7);
+				/*---修改图片数量的话需要修改下面的动画参数*/
+			}
+			
+			.play {
+				animation: ma 35s ease-out infinite alternate;
+			}
+			
+			@keyframes ma {
+				0%,
+				14% {
+					margin-left: 0px;
+				}
+				28%{
+					margin-left: -1280px;
+				}
+				42% {
+					margin-left: -2560px;
+				}
+				56%{
+					margin-left: -3840px;
+				}
+				70% {
+					margin-left: -51200px;
+				}
+				84%{
+					margin-left: -6400px;
+				}
+				100% {
+					margin-left: -7680px;
+				}
+			}
 
 .PS{ width:1920px; height:1080px; background-image:url(../images/back1.png);position:absolute;left:50%;margin:0px -960px;}
 .copyrighrt {
@@ -11,7 +82,35 @@
 	margin-left: -275px;
 	bottom: 0px;
 }
+.NAV {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	left: 50%;
+	margin: 0px -960px;
+}
 
+.NAV1 {
+	width: 100%;
+	height: 100%;
+	position: absolute
+}
+
+.NAV2 {
+	background: rgba(39, 39, 39, 0.4);
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	overflow: hidden
+}
+
+.NAV2 img {
+	width: 1920px;
+	height: 1080px;
+	position: relative;
+	top: 100px;
+	overflow: hidden
+}
 
 
 
