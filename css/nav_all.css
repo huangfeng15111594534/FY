@@ -42,10 +42,12 @@ body {
 }
 
 #c {
-	width: 38px;
-	height: 38px;
+	width: 70px;
+	height: 70px;
+	background: #008000 url(../images/山.png) no-repeat scroll center center;
 	border: 3px solid #54DD92;
 	border-radius: 50%;
+	box-shadow: 0 2px 2px #414141;
 	position: relative;
 	left: 40px;
 	top: 10px;
@@ -54,6 +56,23 @@ body {
 	font-weight: 900;
 	font-family: "楷体";
 }
+
+#c:hover {
+	background: url(../demo/image/logojpg.jpg) #00B398 no-repeat scroll center center;
+}
+#c a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.logo a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+
+/*LOGO*/
 
 #cs {
 	color: #00b398 !important;
@@ -72,59 +91,63 @@ body {
 	position: absolute;
 	right: 0px
 }
+
 #b1 ul {
-    display: flex;
-    position: absolute;
-    width: 800px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	display: flex;
+	position: absolute;
+	width: 800px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
+
 #b1 a:hover {
 	color: #bffff5;
 	border-bottom: 3px solid #54DD92
 }
 
-
 #b1 li::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 100%;
-    width: 0;
-    height: 100%;
-    border-bottom: 4px solid #000;
-    transition: 0.2s all linear;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 0;
+	height: 100%;
+	border-bottom: 4px solid #000;
+	transition: 0.2s all linear;
 }
 
 #b1 li {
-    position: relative;
-    padding: 20px;
-    font-size: 24px;
-    color: #000;
-    line-height: 1;
-    transition: 0.2s all linear;
-    cursor: pointer;
+	position: relative;
+	padding: 20px;
+	font-size: 24px;
+	color: #000;
+	line-height: 1;
+	transition: 0.2s all linear;
+	cursor: pointer;
 }
+
 #b1 li:hover::before {
-    width: 100%;
-    top: 0;
-    left: 0;
-    transition-delay: 0.1s;
-    border-bottom-color: #000;
-    z-index: -1;
+	width: 100%;
+	top: 0;
+	left: 0;
+	transition-delay: 0.1s;
+	border-bottom-color: #000;
+	z-index: -1;
 }
-#b1 li:hover ~ li::before {
-    left: 0;
+
+#b1 li:hover~li::before {
+	left: 0;
 }
+
 #b1 li:active {
-    background: #000;
-    color: #fff;
+	background: #000;
+	color: #fff;
 }
+
 #b1 a {
 	color: #FFF
 }
-
 
 
 /*
