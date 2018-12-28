@@ -58,7 +58,7 @@ body {
 }
 
 #c:hover {
-	background: url(../images/home.png) #FFF  no-repeat scroll center center;
+	background: url(../images/home.png) rgb(242, 242, 242)  no-repeat scroll center center;
 }
 #c a {
     display: block;
