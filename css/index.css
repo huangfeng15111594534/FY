@@ -2,9 +2,7 @@
 
 /* CSS Document */
 
-.logo_font{
 
-}
 .NAV {
 	width: 1920px;
 	height: 1080px;
@@ -28,9 +26,9 @@
 	overflow: hidden
 }
 
-.NAV2 img {
+.NAV2 div {
 	width: 1920px;
-	height: 1080px;
+	height: auto;
 	position: relative;
 	top: 100px;
 	overflow: hidden

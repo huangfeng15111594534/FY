@@ -1,17 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>next</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/nav_all.css" />
+    <link rel="stylesheet" type="text/css" href="css/foot_all.css" />
+    <link rel="stylesheet" type="text/css" href="css/景区交通_d.css">
 
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/nav_all.css" />
-		<link rel="stylesheet" type="text/css" href="css/foot_all.css" />
-		<link rel="stylesheet" type="text/css" href="css/景区交通_d.css">
+    </head>
+    <style>
+      .onle{
+        background-color: rgba(71, 71, 71, 0.685);
+      }
+        .navbar-brand{
+                margin-top: -15px;
+            }
 
-	</head>
+          #demo{
+          width:1500px;
+          height:400px;
+          margin:20px auto;
+          overflow:hidden;
+        }
 
-	<body>
-		<div id="a">
+        #indemo{
+          width:950%;
+          float:left;
+          
+        }
+        #demo1{
+          float:left;
+          
+        }
+        #demo2{
+          float:left;
+          margin-left:5PX;
+
+        }
+        .fan{
+         margin-left:200px;
+          width: 1000px;
+          height: 2300px;
+          background-color:rgb(154, 221, 233);
+        }   
+        .nav{
+          height: 50px;
+        }
+        .father{
+        width:300px;
+        height:200px;
+        margin:50px auto;
+        position:relative;
+        transition:2s;
+        transform-style:preserve-3d;
+        }
+        .red{
+        width:100%;
+        height:100%;
+        background:url(images/3.jpg) no-repeat;
+        background-size:contain;
+        position:absolute;
+        opacity:0.5;
+        transform:translateZ(-100PX);
+        }
+        .green{
+        width:100%;
+        height:100%;
+        position:absolute;
+        background:url(images/4.jpg) no-repeat;
+        background-size:contain;
+
+        transform:translateZ(-200PX);
+        }
+        .father:hover{
+        transform:rotateY(180deg);
+}
+
+
+    </style>
+    <body>
+      <div class="onle">
+        <div id="a">
 			<div id="b">
 				<div id="c">
 					<!--<font id="logo_font">武</font>-->
@@ -39,51 +111,147 @@
 				</ul>
 			</div>
 		</div>
+		
+             
+              <!--自动轮转图-->
+              <div id="demo">
+                <div id="indemo">
+                <div id="demo1">
+                <img src="images/1.jpg" width="600" height="400" /> <img src="images/2.jpg" width="600" height="400" /> <img src="images/4.jpg" width="600" height="400" /> <img src="images/3.jpg" width="600" height="400" />
+                </div>
+                <div id="demo2">
+                </div>
+                </div>
+                </div>
 
-		<div class="NAV">
-			<div class="NAV1">
-				<video src="images/wugongshan.mp4" width="1920px" height="1080px" autoplay muted loop></video>
-			</div>
-			<div class="NAV2"><img src="">
-			</div>
+                 <!--简介-->
+              <div class="fan">
+                <div class="na01" style=" text-align: center; margin: 10px;">
+                  <div class="nav"></div>
+                        <p>武功山</p>
 
-		</div>
+                      <p>一线天过入仙境</p>
+                      <p>雾绕云缠崖石倩</p>
+                      <p>观音驾鹤南海去</p>
+                      <p>留的芳名在人间</p>
+                </div>
+                <!--翻转-->
+                  <div class="father">
+                   <div class="green">
+                   </div>
+                  <div class="red">
+                   </div>
+                   </div>
+                   <div class="na02" style=" text-align: center; margin: 10px;">
+                      <p>许多小伙伴都是坐火车来萍乡</p>
+                      <p>不管是高铁站还是火车站</p>
+                          <p>都能很方便的来武功山</p>
+                              <p>土豪方式：直接包车进山，具体价格看车型</p>
+                                  <p>勤俭持家：车站都有直达景区的车，23元搞定</p>
+                                      <p>淡季时高铁站景区直通车比较少</p>
+                                          <p>建议小伙伴们前往火车站坐车</p>
 
-		<div id="foot">
-			<div id="foot1">
-				<ul>
-					<li><img src="images/contact.png">
-						<div id="FO">
-							<div id='foot1S'><img src="images/wx.png"></div>
-							<div id="foot1SP">
-								<p>
-									<font size="+1">联系我们&nbsp;</font>
-								</p><br>
-								<hr color="#999999" width="270" size="4"><br><br>
-								<ul style="list-style-type:none;">
-									<li>
-										<p>地址：江西省萍乡市武功山</p>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;风景区游客服务中心</p>
-									</li>
-									<li>邮编：337000</li>
-									<li>电话：0799-2109616</li>
+                                              <p>现在景区施行全封闭管理</p>
+                                                  <p>私家车与公交车都只能到达游客服务中心</p>
+                                                      <p>小伙伴们可以选择在公众号里购买门票</p>
+                                                          <p>也可以选择在景区售票中心购票</p>
+                                                              <p>当日购买地票价是70元</p>
+                                                                  <p>小武悄悄地说个小福利</p>
+                                                                      <p>在公众号里提前一天买票只需60元</p>
+                                                  <img src="images/na02.png" width="200px" height="200px"/>
+                                                  <p></p>
+                                                  <p></p>
+                                                  <p>(游客服务中心)</p>
+              </div>
+              <div class="na03" style=" text-align: center; margin: 10px;">
+                  <img src="images/na03.jpg" width="200px" height="200px"/>
+              </div>
+              <div class="na04" style=" text-align: center; margin: 10px;">
+                  <p>小伙伴可以选择全程徒步上山</p>
+                  <p>也可以选择坐索道上山</p>
+                      <p>小武真的强烈建议</p>
+                          <p>一定要坐第一级索道上山</p>
+                              <p>这样既不累，又能欣赏美景</p>
+                                  <p>此时万能小武上线</p>
+                                      <p>小伙伴们可以直接在订阅号里购买索道票</p>
+                                          <p>是不是很方便很简单</p>
+              </div>
+              <div class="na05" style=" text-align: center; margin: 10px;">
+                  <img src="images/map.jpg" width="600px" height="400px"/>
+              </div>
+              <div class="na04" style=" text-align: center; margin: 10px;">
+                  <p>小伙伴可以选择全程徒步上山</p>
+                  <p>也可以选择坐索道上山</p>
+                      <p>小武真的强烈建议</p>
+                          <p>一定要坐第一级索道上山</p>
+                              <p>这样既不累，又能欣赏美景</p>
+                                  <p>此时万能小武上线</p>
+                                      <p>小伙伴们可以直接在订阅号里购买索道票</p>
+                                          <p>是不是很方便很简单</p>
+              </div>
+                 
+         </div>
+            </div>             
+              </div>
+            </div>
 
-								</ul>
-							</div>
-						</div>
-					</li>
-
-				</ul>
-			</div>
-			<div id="foot2">
-				<ul>
-					<li>
-						<div class="copyright">©️ Copyright 2018 梁鸣＆黄峰＆黄清 All Rights Reserved. 备案号：赣ICP备05007532</div>
-					</li>
-
-				</ul>
-			</div>
-		</div>
-	</body>
-
+            <div id="foot">
+                <div id="foot1">
+                    <ul>
+                        <li><img src="images/contact.png">
+                            <div id="FO">
+                                <div id='foot1S'><img src="images/wx.png"></div>
+                                <div id="foot1SP">
+                                    <p>
+                                        <font size="+1">联系我们&nbsp;</font>
+                                    </p><br>
+                                    <hr color="#999999" width="270" size="4"><br><br>
+                                    <ul style="list-style-type:none;">
+                                        <li>地址：江西省萍乡市武功山风景区游客服务中心</li>
+                                        <li>邮编：337000</li>
+                                        <li>电话：0799-2109616</li>
+    
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+    
+                    </ul>
+                </div>
+                <div id="foot2">
+                    <ul>
+                        <li>
+                            <div class="copyright">(c) Copyright 2018 梁鸣＆黄峰＆黄清 All Rights Reserved. 备案号：赣ICP备05007532</div>
+                        </li>
+    
+                    </ul>
+                </div>
+            </div>
+              <script src="js/jquery-1.9.1.js"></script>
+              <script src="js/bootstrap.js"></script>
+              <script>
+                  $('.carousel').carousel({
+                      interval: 5000
+                  })
+              </script>
+               <!--自动轮转图script-->
+              <script>
+                demo2.innerHTML=demo1.innerHTML;
+                demo.offsetleft=demo2.offsetleft;
+                function mar(){
+                  //if(demo.scrollLeft>=demo1.offsetWidth)
+                  if(demo.scrollLeft<=0)
+                  demo.scrollLeft+=demo1.offsetWidth
+                  //demo.scrollLeft-=demo1.offsetWidth;
+                  else
+                  demo.scrollLeft--;
+                  //demo.scrollLeft++;
+                
+                  }
+                  var mymar=setInterval(mar,6);
+                  demo.onmouseover=function(){clearInterval(mymar)}
+                  demo.onmouseout=function(){mymar=setInterval(mar,6)}
+                                             
+                </script>
+    </body>
 </html>
